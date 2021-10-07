@@ -1,0 +1,74 @@
+WMO (dataset exported on 2021-09-21):
+	- 27 033 weather stations
+	  - of which 26 516 have WIGOS station id and 11 have WMO ID
+
+Wikidata (as of 2021-10-04):
+	- 9 847 weather stations (P31 = Q190107)
+	  - of which 1 107 have WIGOS identifier (P4136)
+	  - of which 17 are outside of Canada
+
+
+Matching fields, from WMO point of view:
+
++---------------------------------+----------+---------------------------------+
+|          WMO field              | Wikidata |            Comment              |
++---------------------------------+----------+---------------------------------+
+| id                              |          | No equivalent in Wikidata       |
++---------------------------------+----------+---------------------------------+
+|                                 |          | Some names are territory names  |
+| name                            | labelxx  | instead of station name.        |
+|                                 |          | Different casing rules between  |
+|                                 |          | WMO and Wikidata.               |
++---------------------------------+----------+---------------------------------+
+| region                          |          | Less precise than territory     |
++---------------------------------+----------+---------------------------------+
+| territory                       | P17      | WMO data is not over time       |
+|                                 |          | (moving border or country       |
+|                                 |          | renamed)                        |
++---------------------------------+----------+---------------------------------+
+| declaredStatus                  |          |                                 |
+| stationStatusCode               |          |                                 |
+| stationProgramsDeclaredStatuses |          |                                 |
++---------------------------------+----------+---------------------------------+
+| latitude                        | P625     |                                 |
++---------------------------------+----------+---------------------------------+
+| longitude                       | P625     |                                 |
++---------------------------------+----------+---------------------------------+
+| elevation                       | P2044    |                                 |
++---------------------------------+----------+---------------------------------+
+| stationTypeName                 |          |                                 |
+| stationTypeCode                 |          |                                 |
+| stationTypeId                   |          |                                 |
++---------------------------------+----------+---------------------------------+
+| wigosStationwigosId             | P4136    |                                 |
++---------------------------------+----------+---------------------------------+
+
+
+Matching fields, from Wikidata community point of view:
+
++---------------+---------------------+----------------------------------------+
+| Property      | WMO field           | Comment                                |
++---------------+---------------------+----------------------------------------+
+| labelxx       | name                |                                        |
++---------------+---------------------+----------------------------------------+
+| descriptionxx |                     | Auto-generated from territory          |
++---------------+---------------------+----------------------------------------+
+| P31           |                     | Q190107                                |
++---------------+---------------------+----------------------------------------+
+| P17           | territory           | Built from an authority list           |
++---------------+---------------------+----------------------------------------+
+| P625          | latitude            |                                        |
+|               | longitude           |                                        |
++---------------+---------------------+----------------------------------------+
+| P2044         | elevation           |                                        |
++---------------+---------------------+----------------------------------------+
+| P4136         | wigosStationwigosId |                                        |
++---------------+---------------------+----------------------------------------+
+
+
+Additional notes:
+- We probably could use the territory list to fill the P127 (owned by) property.
+- Some previous import in Wikidata led to broken data on some stations that
+    were mixed with the locality they're in or different point of interest.
+- In Wikidata, existing weather stations with no WIGOS id may be linked to WMO
+    database based on their coordinates.
