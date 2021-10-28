@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xsd:schema xmlns:xml="http://www.w3.org/XML/1998/namespace"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+<!-- stations.xsd - Validate XML representation of WMO stations metadata.
+     Copyright (C) 2021  Pierre Choffet
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of version 3 of the GNU General Public License as
+     published by the Free Software Foundation.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+     -->
+	<xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd" />
+	
+	<xsd:element name="stations">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="station" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="station">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="id" />
+				<xsd:element ref="name" />
+				<xsd:element ref="region" minOccurs="0" />
+				<xsd:element ref="territory" />
+				<xsd:element ref="declaredStatus" />
+				<xsd:sequence minOccurs="0" maxOccurs="1">
+					<xsd:element ref="latitude" />
+					<xsd:element ref="longitude" />
+				</xsd:sequence>
+				<xsd:element ref="elevation" minOccurs="0" />
+				<xsd:element ref="stationTypeName" />
+				<xsd:element ref="wigosStationIdentifiers" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="wigosId" minOccurs="0" />
+				<xsd:element ref="stationTypeId" />
+				<xsd:element ref="dateEstablished" minOccurs="0" />
+				<xsd:element ref="dateClosed" minOccurs="0" />
+				<xsd:element ref="stationStatusCode" minOccurs="0" />
+				<xsd:element ref="stationTypeCode" minOccurs="0" />
+				<xsd:element ref="stationProgramsDeclaredStatuses" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+		
+		<xsd:unique name="station-wmo-id">
+			<xsd:selector xpath="id" />
+			<xsd:field xpath="." />
+		</xsd:unique>
+		
+		<xsd:unique name="station-wigos-id">
+			<xsd:selector xpath="wigosStationIdentifiers/wigosStationIdentifier" />
+			<xsd:field xpath="." />
+		</xsd:unique>
+	</xsd:element>
+	
+	<xsd:element name="wigosStationIdentifiers">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="wigosStationIdentifier" />
+				<xsd:element ref="primary" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="id" type="xsd:positiveInteger" />
+	
+	<xsd:element name="name" type="xsd:normalizedString" />
+	
+	<xsd:element name="region">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:normalizedString">
+				<xsd:enumeration value="Africa" />
+				<xsd:enumeration value="Antarctica" />
+				<xsd:enumeration value="Asia" />
+				<xsd:enumeration value="Europe" />
+				<xsd:enumeration value="North America, Central America and the Caribbean" />
+				<xsd:enumeration value="South America" />
+				<xsd:enumeration value="South-West Pacific" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="territory">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:normalizedString">
+				<xsd:enumeration value="(inapplicable)" />
+				<xsd:enumeration value="(unknown)" />
+				<xsd:enumeration value="Afghanistan" />
+				<xsd:enumeration value="Albania" />
+				<xsd:enumeration value="Algeria" />
+				<xsd:enumeration value="Andorra" />
+				<xsd:enumeration value="Angola" />
+				<xsd:enumeration value="Anguilla" />
+				<xsd:enumeration value="Antigua and Barbuda" />
+				<xsd:enumeration value="Argentina" />
+				<xsd:enumeration value="Armenia" />
+				<xsd:enumeration value="Australia" />
+				<xsd:enumeration value="Austria" />
+				<xsd:enumeration value="Azerbaijan" />
+				<xsd:enumeration value="Bahamas" />
+				<xsd:enumeration value="Bahrain" />
+				<xsd:enumeration value="Bangladesh" />
+				<xsd:enumeration value="Barbados" />
+				<xsd:enumeration value="Belarus" />
+				<xsd:enumeration value="Belgium" />
+				<xsd:enumeration value="Belize" />
+				<xsd:enumeration value="Benin" />
+				<xsd:enumeration value="Bermuda" />
+				<xsd:enumeration value="Bhutan" />
+				<xsd:enumeration value="Bolivia, Plurinational State of" />
+				<xsd:enumeration value="Bosnia and Herzegovina" />
+				<xsd:enumeration value="Botswana" />
+				<xsd:enumeration value="Brazil" />
+				<xsd:enumeration value="British Virgin Islands" />
+				<xsd:enumeration value="Brunei Darussalam" />
+				<xsd:enumeration value="Bulgaria" />
+				<xsd:enumeration value="Burkina Faso" />
+				<xsd:enumeration value="Burundi" />
+				<xsd:enumeration value="Cabo Verde" />
+				<xsd:enumeration value="Cambodia" />
+				<xsd:enumeration value="Cameroon" />
+				<xsd:enumeration value="Canada" />
+				<xsd:enumeration value="Cayman Islands" />
+				<xsd:enumeration value="Central African Republic" />
+				<xsd:enumeration value="Chad" />
+				<xsd:enumeration value="Chile" />
+				<xsd:enumeration value="China" />
+				<xsd:enumeration value="Christmas Island" />
+				<xsd:enumeration value="Cocos (Keeling) Islands" />
+				<xsd:enumeration value="Colombia" />
+				<xsd:enumeration value="Comoros" />
+				<xsd:enumeration value="Congo" />
+				<xsd:enumeration value="Congo, Democratic Republic of the" />
+				<xsd:enumeration value="Cook Islands" />
+				<xsd:enumeration value="Costa Rica" />
+				<xsd:enumeration value="Côte d'Ivoire" />
+				<xsd:enumeration value="Croatia" />
+				<xsd:enumeration value="Cuba" />
+				<xsd:enumeration value="Curacao" />
+				<xsd:enumeration value="Cyprus" />
+				<xsd:enumeration value="Czech Republic" />
+				<xsd:enumeration value="Denmark" />
+				<xsd:enumeration value="Djibouti" />
+				<xsd:enumeration value="Dominica" />
+				<xsd:enumeration value="Dominican Republic" />
+				<xsd:enumeration value="Ecuador" />
+				<xsd:enumeration value="Egypt" />
+				<xsd:enumeration value="El Salvador" />
+				<xsd:enumeration value="Equatorial Guinea" />
+				<xsd:enumeration value="Eritrea" />
+				<xsd:enumeration value="Estonia" />
+				<xsd:enumeration value="Eswatini" />
+				<xsd:enumeration value="Ethiopia" />
+				<xsd:enumeration value="Falkland Islands (Malvinas)" />
+				<xsd:enumeration value="Fiji" />
+				<xsd:enumeration value="Finland" />
+				<xsd:enumeration value="France" />
+				<xsd:enumeration value="French Polynesia" />
+				<xsd:enumeration value="Gabon" />
+				<xsd:enumeration value="Gambia" />
+				<xsd:enumeration value="Georgia" />
+				<xsd:enumeration value="Germany" />
+				<xsd:enumeration value="Ghana" />
+				<xsd:enumeration value="Gibraltar" />
+				<xsd:enumeration value="Greece" />
+				<xsd:enumeration value="Greenland" />
+				<xsd:enumeration value="Grenada" />
+				<xsd:enumeration value="Guatemala" />
+				<xsd:enumeration value="Guinea" />
+				<xsd:enumeration value="Guinea-Bissau" />
+				<xsd:enumeration value="Guyana" />
+				<xsd:enumeration value="Haiti" />
+				<xsd:enumeration value="Honduras" />
+				<xsd:enumeration value="Hong Kong, China" />
+				<xsd:enumeration value="Hungary" />
+				<xsd:enumeration value="Iceland" />
+				<xsd:enumeration value="India" />
+				<xsd:enumeration value="Indonesia" />
+				<xsd:enumeration value="Iran, Islamic Republic of" />
+				<xsd:enumeration value="Iraq" />
+				<xsd:enumeration value="Ireland" />
+				<xsd:enumeration value="Israel" />
+				<xsd:enumeration value="Italy" />
+				<xsd:enumeration value="Jamaica" />
+				<xsd:enumeration value="Japan" />
+				<xsd:enumeration value="Jordan" />
+				<xsd:enumeration value="Kazakhstan" />
+				<xsd:enumeration value="Kenya" />
+				<xsd:enumeration value="Kiribati" />
+				<xsd:enumeration value="Korea, Democratic People's Republic of" />
+				<xsd:enumeration value="Korea, Republic of" />
+				<xsd:enumeration value="Kuwait" />
+				<xsd:enumeration value="Kyrgyzstan" />
+				<xsd:enumeration value="Lao People's Democratic Republic" />
+				<xsd:enumeration value="Latvia" />
+				<xsd:enumeration value="Lebanon" />
+				<xsd:enumeration value="Lesotho" />
+				<xsd:enumeration value="Liberia" />
+				<xsd:enumeration value="Libya" />
+				<xsd:enumeration value="Lithuania" />
+				<xsd:enumeration value="Luxembourg" />
+				<xsd:enumeration value="Macao, China" />
+				<xsd:enumeration value="Madagascar" />
+				<xsd:enumeration value="Malawi" />
+				<xsd:enumeration value="Malaysia" />
+				<xsd:enumeration value="Maldives" />
+				<xsd:enumeration value="Mali" />
+				<xsd:enumeration value="Malta" />
+				<xsd:enumeration value="Marshall Islands" />
+				<xsd:enumeration value="Mauritania" />
+				<xsd:enumeration value="Mauritius" />
+				<xsd:enumeration value="Mexico" />
+				<xsd:enumeration value="Micronesia, Federated States of" />
+				<xsd:enumeration value="Moldova, Republic of" />
+				<xsd:enumeration value="Mongolia" />
+				<xsd:enumeration value="Montenegro" />
+				<xsd:enumeration value="Montserrat" />
+				<xsd:enumeration value="Morocco" />
+				<xsd:enumeration value="Mozambique" />
+				<xsd:enumeration value="Myanmar" />
+				<xsd:enumeration value="Namibia" />
+				<xsd:enumeration value="Nauru" />
+				<xsd:enumeration value="Nepal" />
+				<xsd:enumeration value="Netherlands" />
+				<xsd:enumeration value="New Caledonia" />
+				<xsd:enumeration value="New Zealand" />
+				<xsd:enumeration value="Nicaragua" />
+				<xsd:enumeration value="Niger" />
+				<xsd:enumeration value="Nigeria" />
+				<xsd:enumeration value="Niue" />
+				<xsd:enumeration value="North Macedonia, Republic of" />
+				<xsd:enumeration value="Norway" />
+				<xsd:enumeration value="Oman" />
+				<xsd:enumeration value="Pakistan" />
+				<xsd:enumeration value="Palau" />
+				<xsd:enumeration value="Palestine, State of" />
+				<xsd:enumeration value="Panama" />
+				<xsd:enumeration value="Papua New Guinea" />
+				<xsd:enumeration value="Paraguay" />
+				<xsd:enumeration value="Peru" />
+				<xsd:enumeration value="Philippines" />
+				<xsd:enumeration value="Pitcairn" />
+				<xsd:enumeration value="Poland" />
+				<xsd:enumeration value="Portugal" />
+				<xsd:enumeration value="Puerto Rico" />
+				<xsd:enumeration value="Qatar" />
+				<xsd:enumeration value="Romania" />
+				<xsd:enumeration value="Russian Federation" />
+				<xsd:enumeration value="Rwanda" />
+				<xsd:enumeration value="Saint Helena" />
+				<xsd:enumeration value="Saint Kitts and Nevis" />
+				<xsd:enumeration value="Saint Lucia" />
+				<xsd:enumeration value="Saint Pierre and Miquelon" />
+				<xsd:enumeration value="Saint Vincent and Grenadines" />
+				<xsd:enumeration value="Samoa" />
+				<xsd:enumeration value="Sao Tome and Principe" />
+				<xsd:enumeration value="Saudi Arabia" />
+				<xsd:enumeration value="Senegal" />
+				<xsd:enumeration value="Serbia" />
+				<xsd:enumeration value="Seychelles" />
+				<xsd:enumeration value="Sierra Leone" />
+				<xsd:enumeration value="Singapore" />
+				<xsd:enumeration value="Sint Maarten" />
+				<xsd:enumeration value="Slovakia" />
+				<xsd:enumeration value="Slovenia" />
+				<xsd:enumeration value="Solomon Islands" />
+				<xsd:enumeration value="Somalia" />
+				<xsd:enumeration value="South Africa" />
+				<xsd:enumeration value="South Sudan" />
+				<xsd:enumeration value="Spain" />
+				<xsd:enumeration value="Sri Lanka" />
+				<xsd:enumeration value="Sudan" />
+				<xsd:enumeration value="Suriname" />
+				<xsd:enumeration value="Sweden" />
+				<xsd:enumeration value="Switzerland" />
+				<xsd:enumeration value="Syrian Arab Republic" />
+				<xsd:enumeration value="Taiwan, Province of China" />
+				<xsd:enumeration value="Tajikistan" />
+				<xsd:enumeration value="Tanzania, United Republic of" />
+				<xsd:enumeration value="Thailand" />
+				<xsd:enumeration value="Timor-Leste" />
+				<xsd:enumeration value="Togo" />
+				<xsd:enumeration value="Tokelau" />
+				<xsd:enumeration value="Tonga" />
+				<xsd:enumeration value="Trinidad and Tobago" />
+				<xsd:enumeration value="Tunisia" />
+				<xsd:enumeration value="Turkey" />
+				<xsd:enumeration value="Turkmenistan" />
+				<xsd:enumeration value="Turks and Caicos Islands " />
+				<xsd:enumeration value="Tuvalu" />
+				<xsd:enumeration value="Uganda" />
+				<xsd:enumeration value="Ukraine" />
+				<xsd:enumeration value="United Arab Emirates (the)" />
+				<xsd:enumeration value="United Kingdom (the)" />
+				<xsd:enumeration value="United States (the)" />
+				<xsd:enumeration value="Uruguay" />
+				<xsd:enumeration value="Uzbekistan" />
+				<xsd:enumeration value="Vanuatu" />
+				<xsd:enumeration value="Venezuela, Bolivarian Republic of" />
+				<xsd:enumeration value="Viet Nam" />
+				<xsd:enumeration value="Yemen" />
+				<xsd:enumeration value="Zambia" />
+				<xsd:enumeration value="Zimbabwe" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="declaredStatus">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:normalizedString">
+				<xsd:enumeration value="Unknown" />
+				<xsd:enumeration value="Closed" />
+				<xsd:enumeration value="Operational" />
+				<xsd:enumeration value="Partly operational" />
+				<xsd:enumeration value="Silent" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="latitude">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:float">
+				<xsd:minInclusive value="-90" />
+				<xsd:maxInclusive value="90" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="longitude">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:float">
+				<xsd:minInclusive value="-180" />
+				<xsd:maxInclusive value="180" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="elevation">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:float">
+				<xsd:minInclusive value="-418" /> <!-- Lowest land level on Earth -->
+				<xsd:maxInclusive value="8848" /> <!-- Everest top -->
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="stationTypeName">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:normalizedString">
+				<xsd:enumeration value="Air (fixed)" />
+				<xsd:enumeration value="Air (mobile)" />
+				<xsd:enumeration value="Lake/River (fixed)" />
+				<xsd:enumeration value="Land (fixed)" />
+				<xsd:enumeration value="Land (mobile)" />
+				<xsd:enumeration value="Land (on ice) " />
+				<xsd:enumeration value="Sea (fixed)" />
+				<xsd:enumeration value="Sea (mobile)" />
+				<xsd:enumeration value="Sea (on ice)" />
+				<xsd:enumeration value="Underwater (mobile)" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="stationStatusCode">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:normalizedString">
+				<xsd:enumeration value="unknown" />
+				<xsd:enumeration value="closed" />
+				<xsd:enumeration value="operational" />
+				<xsd:enumeration value="partlyOperational" />
+				<xsd:enumeration value="silent" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="wigosStationIdentifier" type="wigos-id" />
+	
+	<xsd:element name="wigosId" type="wigos-id" />
+	
+	<xsd:element name="dateEstablished" type="xsd:dateTime" />
+	
+	<xsd:element name="dateClosed" type="xsd:dateTime" />
+	
+	<xsd:element name="stationTypeId">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:positiveInteger">
+				<xsd:enumeration value="1" />
+				<xsd:enumeration value="2" />
+				<xsd:enumeration value="3" />
+				<xsd:enumeration value="4" />
+				<xsd:enumeration value="5" />
+				<xsd:enumeration value="6" />
+				<xsd:enumeration value="8" />
+				<xsd:enumeration value="9" />
+				<xsd:enumeration value="10" />
+				<xsd:enumeration value="11" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="stationTypeCode">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:normalizedString">
+				<xsd:enumeration value="air" />
+				<xsd:enumeration value="lakeRiver" />
+				<xsd:enumeration value="landOceanSurface" />
+				<xsd:enumeration value="subSurface" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<xsd:element name="stationProgramsDeclaredStatuses" type="xsd:normalizedString" />
+	
+	<xsd:element name="primary">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:normalizedString">
+				<xsd:enumeration value="true" />
+				<xsd:enumeration value="false" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	
+	<!-- Types -->
+	<xsd:simpleType name="wigos-id">
+		<xsd:restriction base="xsd:normalizedString">
+			<xsd:pattern value="([0-9]|1[0-4])-(([0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-4])-){2}[0-9A-Z]{1,16}(-[0-9A-Z]+)?" />
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

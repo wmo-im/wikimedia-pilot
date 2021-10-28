@@ -1,0 +1,28 @@
+wmo_to_wikidata - Import World Meteorological Organization weather stations
+                  metadata into Wikidata.
+
+This repository contains a set of scripts that download, clean, verify, compare
+WMO stations metadata before importing it into Wikidata as needed.
+
+The original source code in this repository is sponsored by Wkimedia Canada.
+
+The following tools are required as dependencies - they should be available
+prepackaged for most GNU/Linux distros.
+
+  - Bash - https://www.gnu.org/software/bash/
+    Shell script interpreter
+
+  - Curl - https://curl.se/
+    Download WMO data.
+
+  - Xmlstarlet - http://xmlstar.sourceforge.net/
+    XSD and XSLT processor.
+
+  - Yq - https://kislyuk.github.io/yq/
+    Jq wrapper to convert WMO JSON into XML.
+
+
+The repositories contains the following tools:
+  - update.sh
+    Ensure WMO stations cache is up to date, convert original JSON into XML,
+    clean and validate data.
