@@ -1,0 +1,3 @@
+[submodule "wdef_schemas"]
+	path = wdef_schemas
+	url = https://git.choffet.net/wdef_schemas.git
