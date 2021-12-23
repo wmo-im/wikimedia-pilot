@@ -19,7 +19,12 @@
 
 	<!-- List known invalid WIGOS IDs in original data -->
 	<xsl:variable name="wigos-ids">
+		<wigos-id invalid-value="41247" />
+		<wigos-id invalid-value="72388" />
 		<wigos-id invalid-value="0-634-0000-0000" />
+		<wigos-id invalid-value="0-858-02560-COL" />
+		<wigos-id invalid-value="1-620-2001-0507" />
+		<wigos-id invalid-value="NaN-NaN-NaN-undefined" />
 	</xsl:variable>
 	
 	<xsl:param name="hardcoded-wigos-id" select="document('')/*/xsl:variable[@name='wigos-ids']/*"/>
@@ -45,14 +50,14 @@
 	
 	<!-- Remove invalid WIGOS identifiers -->
 	<xsl:template match="wigosStationIdentifiers">
-		<xsl:if test="translate(wigosStationIdentifier, '0123456789-', '') = '' and contains(wigosStationIdentifier, '-') and not($hardcoded-wigos-id[@invalid-value = current()/wigosStationIdentifier])">
+		<xsl:if test="translate(wigosStationIdentifier, '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-', '') = '' and contains(wigosStationIdentifier, '-') and not($hardcoded-wigos-id[@invalid-value = current()/wigosStationIdentifier])">
 			<xsl:copy>
 				<xsl:apply-templates select="node()|@*" />
 			</xsl:copy>
 		</xsl:if>
 	</xsl:template>	
 	<xsl:template match="wigosId">
-		<xsl:if test="translate(., '0123456789-', '') = '' and contains(., '-') and not($hardcoded-wigos-id[@invalid-value = current()])">
+		<xsl:if test="translate(., '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-', '') = '' and contains(., '-') and not($hardcoded-wigos-id[@invalid-value = current()])">
 			<xsl:copy>
 				<xsl:apply-templates select="node()|@*" />
 			</xsl:copy>
