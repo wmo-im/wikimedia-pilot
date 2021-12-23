@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-set -euxo pipefail
+set -euo pipefail
 
 # Script cache dir
 CACHE_DIR=${CACHE_DIR:-"${HOME}/.cache/wmo_to_wikidata/"}
@@ -62,4 +62,11 @@ ensureStationsCache
 xmlstarlet tr -s xslts/stations_clean.xslt "${STATIONS_CACHE_PATH}" | xmlstarlet fo -t > "${STATIONS_CLEANED_CACHE_PATH}"
 
 # Validate stations cache
-xmlstarlet val -e -s schemas/stations.xsd "${STATIONS_CLEANED_CACHE_PATH}"
+xmlstarlet val -e -q -s schemas/stations.xsd "${STATIONS_CLEANED_CACHE_PATH}"
+
+# Generate, validate, echo and delete WDEF file
+WDEF_PATH=$(mktemp)
+xmlstarlet tr -s xslts/generate_wdef.xslt "${STATIONS_CLEANED_CACHE_PATH}" > "${WDEF_PATH}"
+xmlstarlet val -e -q -s wdef_schemas/wdef.xsd "${WDEF_PATH}"
+cat "${WDEF_PATH}"
+rm "${WDEF_PATH}"

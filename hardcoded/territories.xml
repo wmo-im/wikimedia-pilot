@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<territories>
+	<territory wmo-name="(inapplicable)" wikidata-id="" />
+	<territory wmo-name="(unknown)" wikidata-id="" />
+	<territory wmo-name="Afghanistan" wikidata-id="Q889" name-en="Afghanistan" prefix-en="in" name-fr="Afghanistan" prefix-fr="en" country-qid="Q889" stations-name-lang="en" />
+	<territory wmo-name="Albania" wikidata-id="Q222" name-en="Albania" prefix-en="in" name-fr="Albanie" prefix-fr="en" country-qid="Q222" stations-name-lang="sq" />
+	<territory wmo-name="Algeria" wikidata-id="Q262" name-en="Algeria" prefix-en="in" name-fr="Algérie" prefix-fr="en" country-qid="Q262" />
+	<territory wmo-name="Andorra" wikidata-id="Q228" name-en="Andorra" prefix-en="in" name-fr="Andorre" prefix-fr="en" country-qid="Q228" />
+	<territory wmo-name="Angola" wikidata-id="Q916" name-en="Angola" prefix-en="in" name-fr="Angola" prefix-fr="en" country-qid="Q916" />
+	<territory wmo-name="Anguilla" wikidata-id="Q25228" name-en="Anguilla" prefix-en="in" name-fr="Anguilla" prefix-fr="en" country-qid="Q145" />
+	<territory wmo-name="Antigua and Barbuda" wikidata-id="Q781" name-en="Antigua and Barbuda" prefix-en="in" name-fr="Antigua-et-Barbuda" prefix-fr="en" country-qid="Q781" />
+	<territory wmo-name="Argentina" wikidata-id="Q414" name-en="Argentina" prefix-en="in" name-fr="Argentine" prefix-fr="en" country-qid="Q414" />
+	<territory wmo-name="Armenia" wikidata-id="Q399" name-en="Armenia" prefix-en="in" name-fr="Arménie" prefix-fr="en" country-qid="Q399" />
+	<territory wmo-name="Australia" wikidata-id="Q408" name-en="Australia" prefix-en="in" name-fr="Australie" prefix-fr="en" country-qid="Q408" />
+	<territory wmo-name="Austria" wikidata-id="Q40" name-en="Austria" prefix-en="in" name-fr="Autriche" prefix-fr="en" country-qid="Q40" />
+	<territory wmo-name="Azerbaijan" wikidata-id="Q227" name-en="Azerbaijan" prefix-en="in" name-fr="Azerbaïdjan" prefix-fr="en" country-qid="Q227" />
+	<territory wmo-name="Bahamas" wikidata-id="Q778" name-en="Bahamas" prefix-en="in" name-fr="Bahamas" prefix-fr="aux" country-qid="Q778" />
+	<territory wmo-name="Bahrain" wikidata-id="Q398" name-en="Bahrain" prefix-en="in" name-fr="Bahreïn" prefix-fr="à" country-qid="Q398" />
+	<territory wmo-name="Bangladesh" wikidata-id="Q902" name-en="Bangladesh" prefix-en="in" name-fr="Bangladesh" prefix-fr="au" country-qid="Q902" />
+	<territory wmo-name="Barbados" wikidata-id="Q244" name-en="Barbados" prefix-en="in" name-fr="Barbade" prefix-fr="à la" country-qid="Q244" />
+	<territory wmo-name="Belarus" wikidata-id="Q184" name-en="Belarus" prefix-en="in" name-fr="Biélorussie" prefix-fr="en" country-qid="Q184" />
+	<territory wmo-name="Belgium" wikidata-id="Q31" name-en="Belgium" prefix-en="in" name-fr="Belgique" prefix-fr="en" country-qid="Q31" />
+	<territory wmo-name="Belize" wikidata-id="Q242" name-en="Belize" prefix-en="in" name-fr="Belize" prefix-fr="au" country-qid="Q242" />
+	<territory wmo-name="Benin" wikidata-id="Q962" name-en="Benin" prefix-en="in" name-fr="Bénin" prefix-fr="au" country-qid="Q962" />
+	<territory wmo-name="Bermuda" wikidata-id="Q23635" name-en="Bermuda" prefix-en="in" name-fr="Bermudes" prefix-fr="aux" country-qid="Q145" />
+	<territory wmo-name="Bhutan" wikidata-id="Q917" name-en="Bhutan" prefix-en="in" name-fr="Bhoutan" prefix-fr="au" country-qid="Q917" />
+	<territory wmo-name="Bolivia, Plurinational State of" wikidata-id="Q750" name-en="Bolivia" prefix-en="in" name-fr="Bolivie" prefix-fr="en" country-qid="Q750" />
+	<territory wmo-name="Bosnia and Herzegovina" wikidata-id="Q225" name-en="Bosnia and Herzegovina" prefix-en="in" name-fr="Bosnie-Herzégovine" prefix-fr="en" country-qid="Q225" />
+	<territory wmo-name="Botswana" wikidata-id="Q963" name-en="Botswana" prefix-en="in" name-fr="Botswana" prefix-fr="au" country-qid="Q963" />
+	<territory wmo-name="Brazil" wikidata-id="Q155" name-en="Brazil" prefix-en="in" name-fr="Brésil" prefix-fr="au" country-qid="Q155" />
+	<territory wmo-name="British Virgin Islands" wikidata-id="Q25305" name-en="British Virgin Islands" prefix-en="in" name-fr="îles Vierges britanniques" prefix-fr="aux" country-qid="Q145" />
+	<territory wmo-name="Brunei Darussalam" wikidata-id="Q921" name-en="Brunei Darussalam" prefix-en="in" name-fr="Brunei" prefix-fr="à" country-qid="Q921" />
+	<territory wmo-name="Bulgaria" wikidata-id="Q219" name-en="Bulgaria" prefix-en="in" name-fr="Bulgarie" prefix-fr="en" country-qid="Q219" />
+	<territory wmo-name="Burkina Faso" wikidata-id="Q965" name-en="Burkina Faso" prefix-en="in" name-fr="Burkina Faso" prefix-fr="au" country-qid="Q965" />
+	<territory wmo-name="Burundi" wikidata-id="Q967" name-en="Burundi" prefix-en="in" name-fr="Burundi" prefix-fr="au" country-qid="Q967" />
+	<territory wmo-name="Cabo Verde" wikidata-id="Q1011" name-en="Cabo Verde" prefix-en="in" name-fr="Cap-Vert" prefix-fr="au" country-qid="Q1011" />
+	<territory wmo-name="Cambodia" wikidata-id="Q424" name-en="Cambodia" prefix-en="in" name-fr="Cambodge" prefix-fr="au" country-qid="Q424" />
+	<territory wmo-name="Cameroon" wikidata-id="Q1009" name-en="Cameroon" prefix-en="in" name-fr="Cameroun" prefix-fr="au" country-qid="Q1009" />
+	<territory wmo-name="Canada" wikidata-id="Q16" name-en="Canada" prefix-en="in" name-fr="Canada" prefix-fr="au" country-qid="Q16" />
+	<territory wmo-name="Cayman Islands" wikidata-id="Q5785" name-en="Cayman Islands" prefix-en="in" name-fr="îles Caïmans" prefix-fr="aux" country-qid="Q145" />
+	<territory wmo-name="Central African Republic" wikidata-id="Q929" name-en="Central African Republic" prefix-en="in" name-fr="Centrafrique" prefix-fr="en" country-qid="Q929" />
+	<territory wmo-name="Chad" wikidata-id="Q657" name-en="Chad" prefix-en="in" name-fr="Tchad" prefix-fr="au" country-qid="Q657" />
+	<territory wmo-name="Chile" wikidata-id="Q298" name-en="Chile" prefix-en="in" name-fr="Chili" prefix-fr="au" country-qid="Q298" />
+	<territory wmo-name="China" wikidata-id="Q148" name-en="China" prefix-en="in" name-fr="Chine" prefix-fr="en" country-qid="Q148" />
+	<territory wmo-name="Christmas Island" wikidata-id="Q31063" name-en="Christmas Island" prefix-en="in" name-fr="île Christmas" prefix-fr="à l’" country-qid="Q408" />
+	<territory wmo-name="Cocos (Keeling) Islands" wikidata-id="Q36004" name-en="Cocos (Keeling) Islands" prefix-en="in" name-fr="îles Cocos" prefix-fr="aux" country-qid="Q408" />
+	<territory wmo-name="Colombia" wikidata-id="Q739" name-en="Colombia" prefix-en="in" name-fr="Colombie" prefix-fr="en" country-qid="Q739" />
+	<territory wmo-name="Comoros" wikidata-id="Q970" name-en="Comoros" prefix-en="in" name-fr="Comores" prefix-fr="aux" country-qid="Q970" />
+	<territory wmo-name="Congo" wikidata-id="Q971" name-en="Republic of the Congo" prefix-en="in" name-fr="République du Congo" prefix-fr="en" country-qid="Q971" />
+	<territory wmo-name="Congo, Democratic Republic of the" wikidata-id="Q974" name-en="Democratic Republic of the Congo" prefix-en="in" name-fr="République démocratique du Congo" prefix-fr="en" country-qid="Q974" />
+	<territory wmo-name="Cook Islands" wikidata-id="Q26988" name-en="Cook Islands" prefix-en="in" name-fr="Îles Cook" prefix-fr="aux" country-qid="Q26988" />
+	<territory wmo-name="Costa Rica" wikidata-id="Q800" name-en="Costa Rica" prefix-en="in" name-fr="Costa Rica" prefix-fr="au" country-qid="Q800" />
+	<territory wmo-name="Côte d'Ivoire" wikidata-id="Q1008" name-en="Ivory Coast" prefix-en="in" name-fr="Côte d'Ivoire" prefix-fr="en" country-qid="Q1008" />
+	<territory wmo-name="Croatia" wikidata-id="Q224" name-en="Croatia" prefix-en="in" name-fr="Croatie" prefix-fr="en" country-qid="Q224" />
+	<territory wmo-name="Cuba" wikidata-id="Q241" name-en="Cuba" prefix-en="in" name-fr="Cuba" prefix-fr="à" country-qid="Q241" />
+	<territory wmo-name="Curacao" wikidata-id="Q25279" name-en="Curaçao" prefix-en="in" name-fr="Curaçao" prefix-fr="à" country-qid="Q55" />
+	<territory wmo-name="Cyprus" wikidata-id="Q229" name-en="Cyprus" prefix-en="in" name-fr="Chypre" prefix-fr="à" country-qid="Q229" />
+	<territory wmo-name="Czech Republic" wikidata-id="Q213" name-en="Czech Republic" prefix-en="in" name-fr="Tchéquie" prefix-fr="en" country-qid="Q213" />
+	<territory wmo-name="Denmark" wikidata-id="Q35" name-en="Denmark" prefix-en="in" name-fr="Danemark" prefix-fr="au" country-qid="Q35" />
+	<territory wmo-name="Djibouti" wikidata-id="Q977" name-en="Djibouti" prefix-en="in" name-fr="Djibouti" prefix-fr="à" country-qid="Q977" />
+	<territory wmo-name="Dominica" wikidata-id="Q784" name-en="Dominica" prefix-en="in" name-fr="Dominique" prefix-fr="en" country-qid="Q784" />
+	<territory wmo-name="Dominican Republic" wikidata-id="Q786" name-en="Dominican Republic" prefix-en="in" name-fr="République dominicaine" prefix-fr="en" country-qid="Q786" />
+	<territory wmo-name="Ecuador" wikidata-id="Q736" name-en="Ecuador" prefix-en="in" name-fr="Équateur" prefix-fr="en" country-qid="Q736" />
+	<territory wmo-name="Egypt" wikidata-id="Q79" name-en="Egypt" prefix-en="in" name-fr="Égypte" prefix-fr="en" country-qid="Q79" />
+	<territory wmo-name="El Salvador" wikidata-id="Q792" name-en="El Salvador" prefix-en="in" name-fr="Salvador" prefix-fr="au" country-qid="Q792" />
+	<territory wmo-name="Equatorial Guinea" wikidata-id="Q983" name-en="Equatorial Guinea" prefix-en="in" name-fr="Guinée équatoriale" prefix-fr="en" country-qid="Q983" />
+	<territory wmo-name="Eritrea" wikidata-id="Q986" name-en="Eritrea" prefix-en="in" name-fr="Érythrée" prefix-fr="en" country-qid="Q986" />
+	<territory wmo-name="Estonia" wikidata-id="Q191" name-en="Estonia" prefix-en="in" name-fr="Estonie" prefix-fr="en" country-qid="Q191" />
+	<territory wmo-name="Eswatini" wikidata-id="Q1050" name-en="Eswatini" prefix-en="in" name-fr="Eswatini" prefix-fr="en" country-qid="Q1050" />
+	<territory wmo-name="Ethiopia" wikidata-id="Q115" name-en="Ethiopia" prefix-en="in" name-fr="Éthiopie" prefix-fr="en" country-qid="Q115" />
+	<territory wmo-name="Falkland Islands (Malvinas)" wikidata-id="Q9648" name-en="Falkland Islands" prefix-en="in" name-fr="îles Malouines" prefix-fr="aux" country-qid="Q145" />
+	<territory wmo-name="Fiji" wikidata-id="Q712" name-en="Fiji" prefix-en="in" name-fr="Fidji" prefix-fr="aux" country-qid="Q712" />
+	<territory wmo-name="Finland" wikidata-id="Q33" name-en="Finland" prefix-en="in" name-fr="Finlande" prefix-fr="en" country-qid="Q33" />
+	<territory wmo-name="France" wikidata-id="Q142" name-en="France" prefix-en="in" name-fr="France" prefix-fr="en" country-qid="Q142" />
+	<territory wmo-name="French Polynesia" wikidata-id="Q30971" name-en="French Polynesia" prefix-en="in" name-fr="Polynésie française" prefix-fr="en" country-qid="Q142" />
+	<territory wmo-name="Gabon" wikidata-id="Q1000" name-en="Gabon" prefix-en="in" name-fr="Gabon" prefix-fr="au" country-qid="Q1000" />
+	<territory wmo-name="Gambia" wikidata-id="Q1005" name-en="Gambia" prefix-en="in" name-fr="Gambie" prefix-fr="en" country-qid="Q1005" />
+	<territory wmo-name="Georgia" wikidata-id="Q230" name-en="Georgia" prefix-en="in" name-fr="Géorgie" prefix-fr="en" country-qid="Q230" />
+	<territory wmo-name="Germany" wikidata-id="Q183" name-en="Germany" prefix-en="in" name-fr="Allemagne" prefix-fr="en" country-qid="Q183" />
+	<territory wmo-name="Ghana" wikidata-id="Q117" name-en="Ghana" prefix-en="in" name-fr="Ghana" prefix-fr="au" country-qid="Q117" />
+	<territory wmo-name="Gibraltar" wikidata-id="Q1410" name-en="Gibraltar" prefix-en="in" name-fr="Gibraltar" prefix-fr="à" country-qid="Q1410" />
+	<territory wmo-name="Greece" wikidata-id="Q41" name-en="Greece" prefix-en="in" name-fr="Grèce" prefix-fr="en" country-qid="Q41" />
+	<territory wmo-name="Greenland" wikidata-id="Q223" name-en="Greenland" prefix-en="in" name-fr="Groenland" prefix-fr="au" country-qid="Q223" />
+	<territory wmo-name="Grenada" wikidata-id="Q769" name-en="Grenada" prefix-en="in" name-fr="Grenade" prefix-fr="à" country-qid="Q769" />
+	<territory wmo-name="Guatemala" wikidata-id="Q774" name-en="Guatemala" prefix-en="in" name-fr="Guatemala" prefix-fr="au" country-qid="Q774" />
+	<territory wmo-name="Guinea" wikidata-id="Q1006" name-en="Guinea" prefix-en="in" name-fr="Guinée" prefix-fr="en" country-qid="Q1006" />
+	<territory wmo-name="Guinea-Bissau" wikidata-id="Q1007" name-en="Guinea-Bissau" prefix-en="in" name-fr="Guinée-Bissau" prefix-fr="en" country-qid="Q1007" />
+	<territory wmo-name="Guyana" wikidata-id="Q734" name-en="Guyana" prefix-en="in" name-fr="Guyana" prefix-fr="au" country-qid="Q734" />
+	<territory wmo-name="Haiti" wikidata-id="Q790" name-en="Haiti" prefix-en="in" name-fr="Haïti" prefix-fr="en" country-qid="Q790" />
+	<territory wmo-name="Honduras" wikidata-id="Q783" name-en="Honduras" prefix-en="in" name-fr="Honduras" prefix-fr="au" country-qid="Q783" />
+	<territory wmo-name="Hong Kong, China" wikidata-id="Q8646" name-en="Hong Kong" prefix-en="in" name-fr="Hong Kong" prefix-fr="à" country-qid="Q148" />
+	<territory wmo-name="Hungary" wikidata-id="Q28" name-en="Hungary" prefix-en="in" name-fr="Hongrie" prefix-fr="en" country-qid="Q28" />
+	<territory wmo-name="Iceland" wikidata-id="Q189" name-en="Iceland" prefix-en="in" name-fr="Islande" prefix-fr="en" country-qid="Q189" />
+	<territory wmo-name="India" wikidata-id="Q668" name-en="India" prefix-en="in" name-fr="Inde" prefix-fr="en" country-qid="Q668" />
+	<territory wmo-name="Indonesia" wikidata-id="Q252" name-en="Indonesia" prefix-en="in" name-fr="Indonésie" prefix-fr="en" country-qid="Q252" />
+	<territory wmo-name="Iran, Islamic Republic of" wikidata-id="Q794" name-en="Iran" prefix-en="in" name-fr="Iran" prefix-fr="en" country-qid="Q794" />
+	<territory wmo-name="Iraq" wikidata-id="Q796" name-en="Iraq" prefix-en="in" name-fr="Irak" prefix-fr="en" country-qid="Q796" />
+	<territory wmo-name="Ireland" wikidata-id="Q27" name-en="Ireland" prefix-en="in" name-fr="Irlande" prefix-fr="en" country-qid="Q27" />
+	<territory wmo-name="Israel" wikidata-id="Q801" name-en="Israel" prefix-en="in" name-fr="Israël" prefix-fr="en" country-qid="Q801" />
+	<territory wmo-name="Italy" wikidata-id="Q38" name-en="Italy" prefix-en="in" name-fr="Italie" prefix-fr="en" country-qid="Q38" />
+	<territory wmo-name="Jamaica" wikidata-id="Q766" name-en="Jamaica" prefix-en="in" name-fr="Jamaïque" prefix-fr="en" country-qid="Q766" />
+	<territory wmo-name="Japan" wikidata-id="Q17" name-en="Japan" prefix-en="in" name-fr="Japon" prefix-fr="au" country-qid="Q17" />
+	<territory wmo-name="Jordan" wikidata-id="Q810" name-en="Jordan" prefix-en="in" name-fr="Jordanie" prefix-fr="en" country-qid="Q810" />
+	<territory wmo-name="Kazakhstan" wikidata-id="Q232" name-en="Kazakhstan" prefix-en="in" name-fr="Kazakhstan" prefix-fr="au" country-qid="Q232" />
+	<territory wmo-name="Kenya" wikidata-id="Q114" name-en="Kenya" prefix-en="in" name-fr="Kenya" prefix-fr="au" country-qid="Q114" />
+	<territory wmo-name="Kiribati" wikidata-id="Q710" name-en="Kiribati" prefix-en="in" name-fr="Kiribati" prefix-fr="aux" country-qid="Q710" />
+	<territory wmo-name="Korea, Democratic People's Republic of" wikidata-id="Q423" name-en="North Korea" prefix-en="in" name-fr="Corée du Nord" prefix-fr="en" country-qid="Q423" />
+	<territory wmo-name="Korea, Republic of" wikidata-id="Q884" name-en="South Korea" prefix-en="in" name-fr="Corée du Sud" prefix-fr="en" country-qid="Q884" />
+	<territory wmo-name="Kuwait" wikidata-id="Q817" name-en="Kuwait" prefix-en="in" name-fr="Koweït" prefix-fr="au" country-qid="Q817" />
+	<territory wmo-name="Kyrgyzstan" wikidata-id="Q813" name-en="Kyrgyzstan" prefix-en="in" name-fr="Kirghizistan" prefix-fr="au" country-qid="Q813" />
+	<territory wmo-name="Lao People's Democratic Republic" wikidata-id="Q819" name-en="Laos" prefix-en="in" name-fr="Laos" prefix-fr="au" country-qid="Q819" />
+	<territory wmo-name="Latvia" wikidata-id="Q211" name-en="Latvia" prefix-en="in" name-fr="Lettonie" prefix-fr="en" country-qid="Q211" />
+	<territory wmo-name="Lebanon" wikidata-id="Q822" name-en="Lebanon" prefix-en="in" name-fr="Liban" prefix-fr="au" country-qid="Q822" />
+	<territory wmo-name="Lesotho" wikidata-id="Q1013" name-en="Lesotho" prefix-en="in" name-fr="Lesotho" prefix-fr="au" country-qid="Q1013" />
+	<territory wmo-name="Liberia" wikidata-id="Q1014" name-en="Liberia" prefix-en="in" name-fr="Liberia" prefix-fr="au" country-qid="Q1014" />
+	<territory wmo-name="Libya" wikidata-id="Q1016" name-en="Libya" prefix-en="in" name-fr="Libye" prefix-fr="en" country-qid="Q1016" />
+	<territory wmo-name="Lithuania" wikidata-id="Q37" name-en="Lithuania" prefix-en="in" name-fr="Lituanie" prefix-fr="en" country-qid="Q37" />
+	<territory wmo-name="Luxembourg" wikidata-id="Q32" name-en="Luxembourg" prefix-en="in" name-fr="Luxembourg" prefix-fr="au" country-qid="Q32" />
+	<territory wmo-name="Macao, China" wikidata-id="Q14773" name-en="Macao" prefix-en="in" name-fr="Macao" prefix-fr="à" country-qid="Q148" />
+	<territory wmo-name="Madagascar" wikidata-id="Q1019" name-en="Madagascar" prefix-en="in" name-fr="Madagascar" prefix-fr="à" country-qid="Q1019" />
+	<territory wmo-name="Malawi" wikidata-id="Q1020" name-en="Malawi" prefix-en="in" name-fr="Malawi" prefix-fr="au" country-qid="Q1020" />
+	<territory wmo-name="Malaysia" wikidata-id="Q833" name-en="Malaysia" prefix-en="in" name-fr="Malaisie" prefix-fr="en" country-qid="Q833" />
+	<territory wmo-name="Maldives" wikidata-id="Q826" name-en="Maldives" prefix-en="in" name-fr="Maldives" prefix-fr="aux" country-qid="Q826" />
+	<territory wmo-name="Mali" wikidata-id="Q912" name-en="Mali" prefix-en="in" name-fr="Mali" prefix-fr="au" country-qid="Q912" />
+	<territory wmo-name="Malta" wikidata-id="Q233" name-en="Malta" prefix-en="in" name-fr="Malte" prefix-fr="à" country-qid="Q233" />
+	<territory wmo-name="Marshall Islands" wikidata-id="Q709" name-en="Marshall Islands" prefix-en="in" name-fr="Îles Marshall" prefix-fr="aux" country-qid="Q709" />
+	<territory wmo-name="Mauritania" wikidata-id="Q1025" name-en="Mauritania" prefix-en="in" name-fr="Mauritanie" prefix-fr="en" country-qid="Q1025" />
+	<territory wmo-name="Mauritius" wikidata-id="Q1027" name-en="Mauritius" prefix-en="in" name-fr="Maurice" prefix-fr="à" country-qid="Q1027" />
+	<territory wmo-name="Mexico" wikidata-id="Q96" name-en="Mexico" prefix-en="in" name-fr="Mexique" prefix-fr="au" country-qid="Q96" />
+	<territory wmo-name="Micronesia, Federated States of" wikidata-id="Q702" name-en="Micronesia" prefix-en="in" name-fr="Micronésie" prefix-fr="en" country-qid="Q702" />
+	<territory wmo-name="Moldova, Republic of" wikidata-id="Q217" name-en="Moldova" prefix-en="in" name-fr="Moldavie" prefix-fr="en" country-qid="Q217" />
+	<territory wmo-name="Mongolia" wikidata-id="Q711" name-en="Mongolia" prefix-en="in" name-fr="Mongolie" prefix-fr="en" country-qid="Q711" />
+	<territory wmo-name="Montenegro" wikidata-id="Q236" name-en="Montenegro" prefix-en="in" name-fr="Monténégro" prefix-fr="au" country-qid="Q236" />
+	<territory wmo-name="Montserrat" wikidata-id="Q13353" name-en="Montserrat" prefix-en="in" name-fr="Montserrat" prefix-fr="en" country-qid="Q145" />
+	<territory wmo-name="Morocco" wikidata-id="Q1028" name-en="Morocco" prefix-en="in" name-fr="Maroc" prefix-fr="au" country-qid="Q1028" />
+	<territory wmo-name="Mozambique" wikidata-id="Q1029" name-en="Mozambique" prefix-en="in" name-fr="Mozambique" prefix-fr="au" country-qid="Q1029" />
+	<territory wmo-name="Myanmar" wikidata-id="Q836" name-en="Myanmar" prefix-en="in" name-fr="Birmanie" prefix-fr="en" country-qid="Q836" />
+	<territory wmo-name="Namibia" wikidata-id="Q1030" name-en="Namibia" prefix-en="in" name-fr="Namibie" prefix-fr="en" country-qid="Q1030" />
+	<territory wmo-name="Nauru" wikidata-id="Q697" name-en="Nauru" prefix-en="in" name-fr="Nauru" prefix-fr="en" country-qid="Q697" />
+	<territory wmo-name="Nepal" wikidata-id="Q837" name-en="Nepal" prefix-en="in" name-fr="Népal" prefix-fr="au" country-qid="Q837" />
+	<territory wmo-name="Netherlands" wikidata-id="Q55" name-en="Netherlands" prefix-en="in" name-fr="Pays-Bas" prefix-fr="aux" country-qid="Q55" />
+	<territory wmo-name="New Caledonia" wikidata-id="Q33788" name-en="New Caledonia" prefix-en="in" name-fr="Nouvelle-Calédonie" prefix-fr="en" country-qid="Q142" />
+	<territory wmo-name="New Zealand" wikidata-id="Q664" name-en="New Zealand" prefix-en="in" name-fr="Nouvelle-Zélande" prefix-fr="en" country-qid="Q664" />
+	<territory wmo-name="Nicaragua" wikidata-id="Q811" name-en="Nicaragua" prefix-en="in" name-fr="Nicaragua" prefix-fr="au" country-qid="Q811" />
+	<territory wmo-name="Niger" wikidata-id="Q1032" name-en="Niger" prefix-en="in" name-fr="Niger" prefix-fr="au" country-qid="Q1032" />
+	<territory wmo-name="Nigeria" wikidata-id="Q1033" name-en="Nigeria" prefix-en="in" name-fr="Nigeria" prefix-fr="au" country-qid="Q1033" />
+	<territory wmo-name="Niue" wikidata-id="Q34020" name-en="Niue" prefix-en="in" name-fr="Niue" prefix-fr="en" country-qid="Q34020" />
+	<territory wmo-name="North Macedonia, Republic of" wikidata-id="Q221" name-en="North Macedonia" prefix-en="in" name-fr="Macédoine du Nord" prefix-fr="en" country-qid="Q221" />
+	<territory wmo-name="Norway" wikidata-id="Q20" name-en="Norway" prefix-en="in" name-fr="Norvège" prefix-fr="en" country-qid="Q20" />
+	<territory wmo-name="Oman" wikidata-id="Q842" name-en="Oman" prefix-en="in" name-fr="Oman" prefix-fr="en" country-qid="Q842" />
+	<territory wmo-name="Pakistan" wikidata-id="Q843" name-en="Pakistan" prefix-en="in" name-fr="Pakistan" prefix-fr="au" country-qid="Q843" />
+	<territory wmo-name="Palau" wikidata-id="Q695" name-en="Palau" prefix-en="in" name-fr="Palaos" prefix-fr="au" country-qid="Q695" />
+	<territory wmo-name="Palestine, State of" wikidata-id="Q219060" name-en="Palestine" prefix-en="in" name-fr="Palestine" prefix-fr="en" country-qid="Q219060" />
+	<territory wmo-name="Panama" wikidata-id="Q804" name-en="Panama" prefix-en="in" name-fr="Panama" prefix-fr="au" country-qid="Q804" />
+	<territory wmo-name="Papua New Guinea" wikidata-id="Q691" name-en="Papua New Guinea" prefix-en="in" name-fr="Papouasie-Nouvelle-Guinée" prefix-fr="en" country-qid="Q691" />
+	<territory wmo-name="Paraguay" wikidata-id="Q733" name-en="Paraguay" prefix-en="in" name-fr="Paraguay" prefix-fr="au" country-qid="Q733" />
+	<territory wmo-name="Peru" wikidata-id="Q419" name-en="Peru" prefix-en="in" name-fr="Pérou" prefix-fr="au" country-qid="Q419" />
+	<territory wmo-name="Philippines" wikidata-id="Q928" name-en="Philippines" prefix-en="in" name-fr="Philippines" prefix-fr="aux" country-qid="Q928" />
+	<territory wmo-name="Pitcairn" wikidata-id="Q35672" name-en="Pitcairn" prefix-en="in" name-fr="Iles Pitcairn" prefix-fr="aux" country-qid="Q145" />
+	<territory wmo-name="Poland" wikidata-id="Q36" name-en="Poland" prefix-en="in" name-fr="Pologne" prefix-fr="en" country-qid="Q36" />
+	<territory wmo-name="Portugal" wikidata-id="Q45" name-en="Portugal" prefix-en="in" name-fr="Portugal" prefix-fr="au" country-qid="Q45" />
+	<territory wmo-name="Puerto Rico" wikidata-id="Q1183" name-en="Puerto Rico" prefix-en="in" name-fr="Porto Rico" prefix-fr="au" country-qid="Q1183" />
+	<territory wmo-name="Qatar" wikidata-id="Q846" name-en="Qatar" prefix-en="in" name-fr="Qatar" prefix-fr="au" country-qid="Q846" />
+	<territory wmo-name="Romania" wikidata-id="Q218" name-en="Romania" prefix-en="in" name-fr="Roumanie" prefix-fr="en" country-qid="Q218" />
+	<territory wmo-name="Russian Federation" wikidata-id="Q159" name-en="Russia" prefix-en="in" name-fr="Russie" prefix-fr="en" country-qid="Q159" />
+	<territory wmo-name="Rwanda" wikidata-id="Q1037" name-en="Rwanda" prefix-en="in" name-fr="Rwanda" prefix-fr="au" country-qid="Q1037" />
+	<territory wmo-name="Saint Helena" wikidata-id="Q34497" name-en="Saint Helena" prefix-en="in" name-fr="Sainte-Hélène" prefix-fr="à" country-qid="Q145" />
+	<territory wmo-name="Saint Kitts and Nevis" wikidata-id="Q763" name-en="Saint Kitts and Nevis" prefix-en="in" name-fr="Saint-Christophe-et-Niévès" prefix-fr="à" country-qid="Q763" />
+	<territory wmo-name="Saint Lucia" wikidata-id="Q760" name-en="Saint Lucia" prefix-en="in" name-fr="Sainte-Lucie" prefix-fr="à" country-qid="Q760" />
+	<territory wmo-name="Saint Pierre and Miquelon" wikidata-id="Q34617" name-en="Saint Pierre and Miquelon" prefix-en="in" name-fr="Saint-Pierre-et-Miquelon" prefix-fr="à" country-qid="Q142" />
+	<territory wmo-name="Saint Vincent and Grenadines" wikidata-id="Q757" name-en="Saint Vincent and Grenadines" prefix-en="in" name-fr="Saint-Vincent-et-les-Grenadines" prefix-fr="à" country-qid="Q757" />
+	<territory wmo-name="Samoa" wikidata-id="Q683" name-en="Samoa" prefix-en="in" name-fr="Samoa" prefix-fr="aux" country-qid="Q683" />
+	<territory wmo-name="Sao Tome and Principe" wikidata-id="Q1039" name-en="Sao Tome and Principe" prefix-en="in" name-fr="Sao Tomé-et-Principe" prefix-fr="à" country-qid="Q1039" />
+	<territory wmo-name="Saudi Arabia" wikidata-id="Q851" name-en="Saudi Arabia" prefix-en="in" name-fr="Arabie saoudite" prefix-fr="en" country-qid="Q851" />
+	<territory wmo-name="Senegal" wikidata-id="Q1041" name-en="Senegal" prefix-en="in" name-fr="Sénégal" prefix-fr="au" country-qid="Q1041" />
+	<territory wmo-name="Serbia" wikidata-id="Q403" name-en="Serbia" prefix-en="in" name-fr="Serbie" prefix-fr="en" country-qid="Q403" />
+	<territory wmo-name="Seychelles" wikidata-id="Q1042" name-en="Seychelles" prefix-en="in" name-fr="Seychelles" prefix-fr="aux" country-qid="Q1042" />
+	<territory wmo-name="Sierra Leone" wikidata-id="Q1044" name-en="Sierra Leone" prefix-en="in" name-fr="Sierra Leone" prefix-fr="au" country-qid="Q1044" />
+	<territory wmo-name="Singapore" wikidata-id="Q334" name-en="Singapore" prefix-en="in" name-fr="Singapour" prefix-fr="à" country-qid="Q334" />
+	<territory wmo-name="Sint Maarten" wikidata-id="Q26273" name-en="Sint Maarten" prefix-en="in" name-fr="Saint-Martin" prefix-fr="à" country-qid="Q55" />
+	<territory wmo-name="Slovakia" wikidata-id="Q214" name-en="Slovakia" prefix-en="in" name-fr="Slovaquie" prefix-fr="en" country-qid="Q214" />
+	<territory wmo-name="Slovenia" wikidata-id="Q215" name-en="Slovenia" prefix-en="in" name-fr="Slovénie" prefix-fr="en" country-qid="Q215" />
+	<territory wmo-name="Solomon Islands" wikidata-id="Q685" name-en="Solomon Islands" prefix-en="in" name-fr="Îles Salomon" prefix-fr="aux" country-qid="Q685" />
+	<territory wmo-name="Somalia" wikidata-id="Q1045" name-en="Somalia" prefix-en="in" name-fr="Somalie" prefix-fr="en" country-qid="Q1045" />
+	<territory wmo-name="South Africa" wikidata-id="Q258" name-en="South Africa" prefix-en="in" name-fr="Afrique du Sud" prefix-fr="en" country-qid="Q258" />
+	<territory wmo-name="South Sudan" wikidata-id="Q958" name-en="South Sudan" prefix-en="in" name-fr="Soudan du Sud" prefix-fr="au" country-qid="Q958" />
+	<territory wmo-name="Spain" wikidata-id="Q29" name-en="Spain" prefix-en="in" name-fr="Espagne" prefix-fr="en" country-qid="Q29" />
+	<territory wmo-name="Sri Lanka" wikidata-id="Q854" name-en="Sri Lanka" prefix-en="in" name-fr="Sri Lanka" prefix-fr="au" country-qid="Q854" />
+	<territory wmo-name="Sudan" wikidata-id="Q1049" name-en="Sudan" prefix-en="in" name-fr="Soudan" prefix-fr="au" country-qid="Q1049" />
+	<territory wmo-name="Suriname" wikidata-id="Q730" name-en="Suriname" prefix-en="in" name-fr="Suriname" prefix-fr="au" country-qid="Q730" />
+	<territory wmo-name="Sweden" wikidata-id="Q34" name-en="Sweden" prefix-en="in" name-fr="Suède" prefix-fr="en" country-qid="Q34" />
+	<territory wmo-name="Switzerland" wikidata-id="Q39" name-en="Switzerland" prefix-en="in" name-fr="Suisse" prefix-fr="en" country-qid="Q39" />
+	<territory wmo-name="Syrian Arab Republic" wikidata-id="Q858" name-en="Syrian Arab Republic" prefix-en="in" name-fr="Syrie" prefix-fr="en" country-qid="Q858" />
+	<territory wmo-name="Taiwan, Province of China" wikidata-id="Q865" name-en="Taiwan" prefix-en="in" name-fr="Taïwan" prefix-fr="à" country-qid="Q865" />
+	<territory wmo-name="Tajikistan" wikidata-id="Q863" name-en="Tajikistan" prefix-en="in" name-fr="Tadjikistan" prefix-fr="au" country-qid="Q863" />
+	<territory wmo-name="Tanzania, United Republic of" wikidata-id="Q924" name-en="Tanzania" prefix-en="in" name-fr="Tanzanie" prefix-fr="en" country-qid="Q924" />
+	<territory wmo-name="Thailand" wikidata-id="Q869" name-en="Thailand" prefix-en="in" name-fr="Thaïlande" prefix-fr="en" country-qid="Q869" />
+	<territory wmo-name="Timor-Leste" wikidata-id="Q574" name-en="East Timor" prefix-en="in" name-fr="Timor oriental" prefix-fr="au" country-qid="Q574" />
+	<territory wmo-name="Togo" wikidata-id="Q945" name-en="Togo" prefix-en="in" name-fr="Togo" prefix-fr="au" country-qid="Q945" />
+	<territory wmo-name="Tokelau" wikidata-id="Q36823" name-en="Tokelau" prefix-en="in" name-fr="Tokelau" prefix-fr="aux" country-qid="Q664" />
+	<territory wmo-name="Tonga" wikidata-id="Q678" name-en="Tonga" prefix-en="in" name-fr="Tonga" prefix-fr="aux" country-qid="Q678" />
+	<territory wmo-name="Trinidad and Tobago" wikidata-id="Q754" name-en="Trinidad and Tobago" prefix-en="in" name-fr="Trinité-et-Tobago" prefix-fr="à" country-qid="Q754" />
+	<territory wmo-name="Tunisia" wikidata-id="Q948" name-en="Tunisia" prefix-en="in" name-fr="Tunisie" prefix-fr="en" country-qid="Q948" />
+	<territory wmo-name="Turkey" wikidata-id="Q43" name-en="Turkey" prefix-en="in" name-fr="Turquie" prefix-fr="en" country-qid="Q43" />
+	<territory wmo-name="Turkmenistan" wikidata-id="Q874" name-en="Turkmenistan" prefix-en="in" name-fr="Turkménistan" prefix-fr="au" country-qid="Q874" />
+	<territory wmo-name="Turks and Caicos Islands " wikidata-id="Q18221" name-en="Turks and Caicos Islands " prefix-en="in" name-fr="îles Turques-et-Caïques" prefix-fr="aux" country-qid="Q145" />
+	<territory wmo-name="Tuvalu" wikidata-id="Q672" name-en="Tuvalu" prefix-en="in" name-fr="Tuvalu" prefix-fr="au" country-qid="Q672" />
+	<territory wmo-name="Uganda" wikidata-id="Q1036" name-en="Uganda" prefix-en="in" name-fr="Ouganda" prefix-fr="en" country-qid="Q1036" />
+	<territory wmo-name="Ukraine" wikidata-id="Q212" name-en="Ukraine" prefix-en="in" name-fr="Ukraine" prefix-fr="en" country-qid="Q212" />
+	<territory wmo-name="United Arab Emirates (the)" wikidata-id="Q878" name-en="United Arab Emirates" prefix-en="in the" name-fr="Émirats arabes unis" prefix-fr="aux" country-qid="Q878" />
+	<territory wmo-name="United Kingdom (the)" wikidata-id="Q145" name-en="United Kingdom" prefix-en="in the" name-fr="Royaume-Uni" prefix-fr="en" country-qid="Q145" />
+	<territory wmo-name="United States (the)" wikidata-id="Q30" name-en="United States of America" prefix-en="in the" name-fr="États-Unis" prefix-fr="aux" country-qid="Q30" />
+	<territory wmo-name="Uruguay" wikidata-id="Q77" name-en="Uruguay" prefix-en="in" name-fr="Uruguay" prefix-fr="en" country-qid="Q77" stations-name-lang="es" />
+	<territory wmo-name="Uzbekistan" wikidata-id="Q265" name-en="Uzbekistan" prefix-en="in" name-fr="Ouzbékistan" prefix-fr="en" country-qid="Q265" />
+	<territory wmo-name="Vanuatu" wikidata-id="Q686" name-en="Vanuatu" prefix-en="in" name-fr="Vanuatu" prefix-fr="au" country-qid="Q686" />
+	<territory wmo-name="Venezuela, Bolivarian Republic of" wikidata-id="Q717" name-en="Venezuela" prefix-en="in" name-fr="Venezuela" prefix-fr="au" country-qid="Q717" />
+	<territory wmo-name="Viet Nam" wikidata-id="Q881" name-en="Viet Nam" prefix-en="in" name-fr="Viêt Nam" prefix-fr="au" country-qid="Q881" />
+	<territory wmo-name="Yemen" wikidata-id="Q805" name-en="Yemen" prefix-en="in" name-fr="Yémen" prefix-fr="au" country-qid="Q805" />
+	<territory wmo-name="Zambia" wikidata-id="Q953" name-en="Zambia" prefix-en="in" name-fr="Zambie" prefix-fr="en" country-qid="Q953" stations-name-lang="en" />
+	<territory wmo-name="Zimbabwe" wikidata-id="Q954" name-en="Zimbabwe" prefix-en="in" name-fr="Zimbabwe" prefix-fr="au" country-qid="Q954" />
+</territories>

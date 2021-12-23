@@ -1,6 +1,9 @@
 wmo_to_wikidata - Import World Meteorological Organization weather stations
                   metadata into Wikidata.
 
+Repository: https://git.choffet.net/?p=wmo_to_wikidata.git
+
+
 This repository contains a set of scripts that download, clean, verify, compare
 WMO stations metadata before importing it into Wikidata as needed.
 
@@ -25,4 +28,4 @@ prepackaged for most GNU/Linux distros.
 The repositories contains the following tools:
   - update.sh
     Ensure WMO stations cache is up to date, convert original JSON into XML,
-    clean and validate data.
+    clean, validate data and generate a new valid WDEF file.
