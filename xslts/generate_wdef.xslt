@@ -26,7 +26,13 @@
 	
 	<xsl:template match="stations">
 		<wdef:knowledge xmlns:wdef="https://purl.choffet.net/wdef">
-			<xsl:apply-templates select="station[wigosStationIdentifiers/wigosStationIdentifier]" />
+			<!--
+			  NOTE: Stations with dateClosed are excluded for now because labels
+			        contain the name the country they belongs to. Since we have no
+			        historical information in WMO database, we cannot ensure we use
+			        the good name/P17 reference without our own country list.
+			-->
+			<xsl:apply-templates select="station[wigosStationIdentifiers/wigosStationIdentifier and not(dateClosed)]" />
 		</wdef:knowledge>
 	</xsl:template>
 	
